@@ -1,0 +1,44 @@
+﻿{
+  "manifest_version": 2,
+  "name": "SC World",
+  "version": "2.11.1",
+
+  "description": "Công cụ bảo mật và thay đổi giao diện FB",
+  "author": "Ily_1606",
+  "browser_action": {
+    "default_icon": "/MEDIA/icon.png",
+    "default_title": "Security and mods FB",
+    "default_popup": "/HTML/main_style_html.html"
+  },
+  "default_locale": "vi",
+  "homepage_url": "http://whiteweb.tk",
+  "icons": {
+    "16": "/MEDIA/icon.png",
+    "48": "/MEDIA/icon48.png",
+    "128": "/MEDIA/icon128.png"
+  },
+  "permissions": ["tabs", "webRequest", "<all_urls>", "contextMenus", "webNavigation", "webRequestBlocking", "storage","unlimitedStorage", "contextMenus", "cookies","notifications","system.cpu","system.memory", "system.storage","system.display"],
+  "background": {
+    "scripts": ["/JS_main/tools.js","/JS_main/global_robot.js"]
+  },
+  "commands": {
+          "toggle-feature-foo": {
+            "suggested_key": {
+              "default": "Ctrl+Shift+A"
+            },
+            "description": "Opening AJI3"
+          }
+        },
+  "content_scripts": [ {
+    "js": [ "/JS_uses/jquery-1.10.2.min.js","/JS_main/theme.js","/JS_main/content.js"],
+    "matches": [ "*://*.facebook.com/*" ],
+    "run_at": "document_start"
+  }, {
+    "js": ["/JS_uses/jquery-1.10.2.min.js", "/JS_main/sectury.js", "JS_main/clickhide.js"],
+    "matches": ["*://*/*"]
+  }, {
+  "js": ["/JS_uses/jquery-1.10.2.min.js","/JS_main/zucker_crush.js"],
+  "matches":[ "*://*.instagram.com/*" ]} ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://use.fontawesome.com https://www.midomi.com; object-src 'self'",
+  "update_url": "https://clients2.google.com/service/update2/crx"
+}

@@ -1,0 +1,37 @@
+.block_screen{background: rgba(120, 0 , 0, 0.6); position: fixed; top: 0; right: 0; left: 0; bottom: 0;
+    animation: myAnimation 1s linear infinite;
+    -moz-animation: myAnimation 1s linear infinite;
+    -webkit-animation: myAnimation 1s linear infinite;
+    -o-animation: myAnimation 1s linear infinite;}
+@keyframes myAnimation {
+    from {background: rgba(120, 0, 0, 0.6);}
+    to {background: rgba(120, 0, 0, 0);}
+}
+
+/* Hien thi cho Firefox */
+@-moz-keyframes myAnimation {
+    from {background: rgba(120, 0, 0, 0.6);}
+    to {background: rgba(120, 0, 0, 0);}
+}
+
+/* Hien thi cho Safari and Chrome */
+@-webkit-keyframes myAnimation {
+    from {background: rgba(120, 0, 0, 0.6);}
+    to {background: rgba(120, 0, 0, 0);}
+}
+
+/* Hien thi cho Opera */
+@-o-keyframes myAnimation {
+    from {background: rgba(120, 0, 0, 0.6);}
+    to {background: rgba(120, 0, 0, 0);}
+}.modal_sectury{position: fixed; top: 50%; right: 50%; width: 400px; height: 300px; margin-top: -150px; margin-right: -200px; border-radius: 40px;
+     background: rgba(0, 0, 0, 0.7); }
+.confirm{background: rgba(255, 255, 255, 0.9); width: 375px; height: 275px; position: fixed; top: 50%; right: 50%; margin-top: -137.5px; margin-right: -187.5px;
+border-radius: 40px}
+.body_sectury{text-align: center}
+.status_sectury{text-align: center; background: red; font-size: 20px; font-weight: bold; line-height: 40px; border-radius: 40px 40px 0px 0px;}
+span.yes{background: orangered; margin-right: calc(50% - 100px);}
+span.no{background: deepskyblue; margin-left: calc(50% - 100px); margin-right: 50px}
+span.yes, span.no{ display: inline-block; border-radius: 3px; color: #ffffff; padding: 10px 20px; cursor: pointer}
+.confirm_button{margin: 0 auto;}
+.body_sectury{margin-top: 40px;}

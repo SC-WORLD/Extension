@@ -1,0 +1,9 @@
+{
+"object": ["ai","cô","bác","anh","chị","ông","bà","cha","mẹ","em","anh","tôi","người","uderfined"],
+"verb":["chạy","nhảy","đánh","ăn","tạo","lập trình","nói","nghe","viết","dịch"],
+"0423123434" : ["hello","xin chào","hi","chào"],
+"0423123435" : ["mở","phát","chạy","tải","load","run","play","vào"],
+"0423123436" : ["ô tô","xe máy","xe gắn máy","mô tô","xe kéo","xe ben","xe tải","xe cotainer","xe đầu kéo","xe kéo","xe rùa","xe đạp","xe đạp điện","xe máy điện"],
+"0423123437" : ["AJI 3","mina","myna","robot"],
+"0423123438" : [["lịch sử","about://history/"],["dấu trang","about://bookmarks/"],["facebook","https://facebook.com"],["youtube","https://youtu.be"],["google","https://google.com"],["coccoc","https://coccoc.com"],["tab mới","https://coccoc.com/webhp?espv=2&ie=UTF-8&l=vi"]]
+}

@@ -1,0 +1,6 @@
+.custom_pay .header_pay{width: 100%; display: block; padding-bottom: 5px; text-align: center; border-bottom: 1px solid #BDBDBD;}
+.custom_pay .body_pay{width: 100%; display: block; text-align: center;}
+.custom_pay .body_pay>*{display: inline-block; font-weight: bold; font-size: 15px; color: green; vertical-align: middle;}
+.custom_pay .fotter_pay{width: 100%; display: block; padding-top: 5px; text-align: center;  border-top: 1px solid #BDBDBD;}
+.custom_pay .header_pay>*{display: inline-block; padding: 0px 5px}
+.custom_pay .header_pay>div:nth-child(2){border-left: 1px solid #BDBBDBD; font-weight: bold}

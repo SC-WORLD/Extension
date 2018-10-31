@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>Mina monitor</title>
+<meta charset="UTF-8">
+<script src="/JS_uses/jquery-1.10.2.min.js"></script>
+<script src="/JS_main/console_mina.js"  type="text/javascript" > </script>
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="/CSS/console_mina.css">
+<link rel="stylesheet" href="/CSS/custom_css_myna.css">
+</head>
+<body>
+<div class="toats"></div>
+<div class="loading"><div class="loader">
+     <svg class="circular" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+    </svg>
+</div></div>
+<div class="wellcome"><div class="text_hello">Khởi động trợ lý ảo mina</div><div class="begin">Nhấn "Bắt đầu" để bắt đầu quá trình thiết lập.</div><ul id="check"><li><div class="loader">
+    <svg class="circular" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="10" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+    </svg>
+</div></li><li><div class="loader">
+    <svg class="circular" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="10" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+    </svg>
+</div></li><li><div class="loader">
+    <svg class="circular" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="10" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+    </svg>
+</div></li><div class="your_speak"><span></span></div></ul><button id="ready">Bắt đầu</button></div>
+<div class="full_screen">
+<div class="logo">mYnA</div><input type="radio" name="version" id="basic" checked><label class="basic" for="basic">Cơ bản</label><input type="radio" name="version" id="advan"><label class="advan" for="advan">Nâng cao</label><input type="radio" name="version" id="news"><label class="news" for="news">Tin tức</label><div class="logo_2">SC WORLD</div>
+<div class="body_robot_basic"><div class="robot"><div class="robot_dot"><div class="dot_1"></div><div class="dot_2"></div><div class="dot_3"></div><div class="dot_4"></div></div>
+<div class="message"></div></div>
+<div class="humman"><div class="humman_dot"><div class="head"></div><div class="body"></div></div>
+<div class="message"></div></div>
+</div><div class="body_robot_advan"><div class="left_content"><h2>Trung tâm thông báo lỗi</h2><div class="no_error" id="status_err">No error</div><h2>Kết nối<span id="status_text_send">No send</span></h2><div class="status_con"><div class="fas fa-server"></div><div class="connect_ss"><div></div><div style=" margin-left: 26px; transform: rotate(180deg);"></div></div><div class="fas fa-desktop"></div></div><h2>Tùy chọn giọng nói</h2><div class="content_voice">
+    <label for="rdo-1" class="btn-radio">
+      <input type="radio" id="rdo-1" name="radio-grp">
+      <svg width="20px" height="20px" viewBox="0 0 20 20">
+        <circle cx="10" cy="10" r="9"></circle>
+        <path d="M10,7 C8.34314575,7 7,8.34314575 7,10 C7,11.6568542 8.34314575,13 10,13 C11.6568542,13 13,11.6568542 13,10 C13,8.34314575 11.6568542,7 10,7 Z" class="inner"></path>
+        <path d="M10,1 L10,1 L10,1 C14.9705627,1 19,5.02943725 19,10 L19,10 L19,10 C19,14.9705627 14.9705627,19 10,19 L10,19 L10,19 C5.02943725,19 1,14.9705627 1,10 L1,10 L1,10 C1,5.02943725 5.02943725,1 10,1 L10,1 Z" class="outer"></path>
+      </svg>
+      <span>Hà Tiểu Mai (MN)</span>
+    </label>
+    <label for="rdo-2" class="btn-radio">
+      <input type="radio" id="rdo-2" name="radio-grp">
+      <svg width="20px" height="20px" viewBox="0 0 20 20">
+        <circle cx="10" cy="10" r="9"></circle>
+        <path d="M10,7 C8.34314575,7 7,8.34314575 7,10 C7,11.6568542 8.34314575,13 10,13 C11.6568542,13 13,11.6568542 13,10 C13,8.34314575 11.6568542,7 10,7 Z" class="inner"></path>
+        <path d="M10,1 L10,1 L10,1 C14.9705627,1 19,5.02943725 19,10 L19,10 L19,10 C19,14.9705627 14.9705627,19 10,19 L10,19 L10,19 C5.02943725,19 1,14.9705627 1,10 L1,10 L1,10 C1,5.02943725 5.02943725,1 10,1 L10,1 Z" class="outer"></path>
+      </svg>
+      <span>Thu Dung (MB)</span>
+    </label>
+	<label for="rdo-3" class="btn-radio">
+      <input type="radio" id="rdo-3" name="radio-grp">
+      <svg width="20px" height="20px" viewBox="0 0 20 20">
+        <circle cx="10" cy="10" r="9"></circle>
+        <path d="M10,7 C8.34314575,7 7,8.34314575 7,10 C7,11.6568542 8.34314575,13 10,13 C11.6568542,13 13,11.6568542 13,10 C13,8.34314575 11.6568542,7 10,7 Z" class="inner"></path>
+        <path d="M10,1 L10,1 L10,1 C14.9705627,1 19,5.02943725 19,10 L19,10 L19,10 C19,14.9705627 14.9705627,19 10,19 L10,19 L10,19 C5.02943725,19 1,14.9705627 1,10 L1,10 L1,10 C1,5.02943725 5.02943725,1 10,1 L10,1 Z" class="outer"></path>
+      </svg>
+      <span>Ngọc Lam (Huế)</span>
+    </label>
+	 <label for="rdo-4" class="btn-radio">
+      <input type="radio" id="rdo-4" name="radio-grp">
+      <svg width="20px" height="20px" viewBox="0 0 20 20">
+        <circle cx="10" cy="10" r="9"></circle>
+        <path d="M10,7 C8.34314575,7 7,8.34314575 7,10 C7,11.6568542 8.34314575,13 10,13 C11.6568542,13 13,11.6568542 13,10 C13,8.34314575 11.6568542,7 10,7 Z" class="inner"></path>
+        <path d="M10,1 L10,1 L10,1 C14.9705627,1 19,5.02943725 19,10 L19,10 L19,10 C19,14.9705627 14.9705627,19 10,19 L10,19 L10,19 C5.02943725,19 1,14.9705627 1,10 L1,10 L1,10 C1,5.02943725 5.02943725,1 10,1 L10,1 Z" class="outer"></path>
+      </svg>
+      <span>Chị google</span>
+    </label>
+	<label for="rdo-5" class="btn-radio">
+      <input type="radio" id="rdo-5" name="radio-grp">
+      <svg width="20px" height="20px" viewBox="0 0 20 20">
+        <circle cx="10" cy="10" r="9"></circle>
+        <path d="M10,7 C8.34314575,7 7,8.34314575 7,10 C7,11.6568542 8.34314575,13 10,13 C11.6568542,13 13,11.6568542 13,10 C13,8.34314575 11.6568542,7 10,7 Z" class="inner"></path>
+        <path d="M10,1 L10,1 L10,1 C14.9705627,1 19,5.02943725 19,10 L19,10 L19,10 C19,14.9705627 14.9705627,19 10,19 L10,19 L10,19 C5.02943725,19 1,14.9705627 1,10 L1,10 L1,10 C1,5.02943725 5.02943725,1 10,1 L10,1 Z" class="outer"></path>
+      </svg>
+      <span>Cao Chung (MB)</span>
+    </label>
+  </div><h2>Quản lý dữ liệu</h2><div class="content_data"><div id="clear" class="reset_mina">Đặt về mặc định</div><div id="clear" class="reset_data">Xóa dữ liệu người dùng</div><div id="clear" class="reset_conves">Xóa dữ liệu hội thoại</div></div></div><div class="body_main_robot"><div class="conve"><table width="100%"></table></div><div class="input_chat"><input type="text" id="chat" name="chat" placeholder="Nhập nội dung..."><div class="right_input"><span class="fas fa-microphone" id="voice_a"></span><span class="fas fa-paper-plane" id="send_a"></span></div></div></div><div class="user_info"><h2>Thông tin của bạn</h2><div class="wrap_content" id="info_u_content"><div class="inline-block"><input class="firstname" placeholder=" "><span>Họ</span></div><div class="inline-block"><input class="lastname" placeholder=" "><span>Tên</span></div><div><input class="birthday" placeholder=" " type="date"><span>Ngày/tháng/năm sinh</span></div><div><input class="location" placeholder=" "><span>Sống ở tỉnh?</span></div></div><div><div id="save" class="save_info">LƯU</div></div><h2 id="short_app">Lối tắt trang web</h2><div class="short_app"><div class="add_app"><div class="wrap_content" id="add_app_content"></div><div class="add_app_modal"><span class="far fa-plus-square"></span><span>Thêm trang web</span></div></div><div id="save" class="save_app">LƯU</div></div></div></div>
+    <div class="body_robot_news"><div class="left_content"><h2>Đề xuất của mina</h2><div class="position_1"></div></div><div class="body_main_robot"><div class="news_from_server"></div></div><div class="user_info"><h2>Thông tin của bạn trên facebook</h2><div class="position_1"></div></div></div></div>
+<div class="modal_screen"></div>
+</body>
+</html>

@@ -1,0 +1,310 @@
+{
+  "color": {
+    "message": "Màu sắc",
+    "description": "Extension name."
+  },
+  "sound":{
+    "message": "Âm thanh"
+  },
+  "tools": {
+    "message": "Công cụ"
+  },
+  "more":{
+    "message": "Thêm"
+  },
+  "Ranking":{
+    "message": "Top 5 ranking tháng "
+  },
+  "sound_more_1":{
+    "message":"Âm thanh thông báo"
+  },
+  "sound_more_2": {
+    "message": "Âm thanh tin nhắn"
+  },
+  "sound_more_3": {
+    "message": "Âm thanh cuộc gọi đến"
+  },
+  "change_theme":{
+    "message": "Thay đổi màu sắc facebook"
+  },
+  "change_sound":{
+    "message": "Thay đổi màu sắc facebook"
+  },
+  "tool_1":{
+    "message": "Bảo vệ bạn khỏi những trang facebook giả"
+  },
+  "tool_2":{
+    "message": "Kiểm tra bảo mật tài khoản facebook"
+  },
+  "tool_3":{
+    "message": "Ai là người quan trọng nhất trên facebook"
+  },
+  "tool_4":{
+    "message": "Trợ giúp đăng nhập facebook"
+  },
+  "tool_5":{
+    "message": "Thống kê tin nhắn facebook"
+  },
+  "tool_6":{
+    "message": "Ai đang online?"
+  },
+  "tool_7":{
+    "message": "Xem tin nhắn đầu tiên"
+  },
+  "tool_8":{
+    "message": "Lấy access token"
+  },
+  "tool_9":{
+    "message": "Tăng lượt tương tác"
+  },
+  "tool_10":{
+    "message": "Hiển thị thời gian online facebook"
+  },
+  "tool_11":{
+    "message": "Chặn mã độc đào tiền ảo bitcoin"
+  },
+  "tool_12":{
+    "message": "Chặn \"đã xem\" trong cuộc trò chuyện"
+  },
+  "tool_13":{
+    "message": "Chặn \"đang nhập\" trong cuộc trò chuyện"
+  },
+  "tool_14":{
+    "message": "Chặn \"đang nhập\" trong bình luận"
+  },
+  "tool_15":{
+    "message": "Chế độ ẩn danh trên facebook"
+  },
+  "tool_16":{
+    "message": "Chế độ tiết kiệm dữ liệu"
+  },
+  "tool_17":{
+    "message": "Chặn mã độc clickjacking"
+  },
+  "tool_18":{
+    "message": "Tạm ngưng hoạt động tất cả các tab"
+  },
+  "tool_19":{
+    "message": "Tải ảnh từ instagram"
+  },
+  "tool_20":{
+    "message": "Tải video từ instagram"
+  },
+  "tool_21":{
+    "message": "Tải ảnh từ storie instagram"
+  },
+  "tool_22":{
+    "message": "Tải video từ storie instagram"
+  },
+  "tool_23":{
+    "message": "Bật/tắt khiên avatar"
+  },
+  "more_1":{
+    "message": "Kiểm tra cập nhật"
+  },
+  "more_2":{
+    "message": "Chế độ toàn màn hình"
+  },
+  "more_3":{
+    "message": "Mina monitor"
+  },
+  "more_4":{
+    "message": "Đặt về mặc định"
+  },
+  "more_5":{
+    "message": "Đánh giá chúng tôi trên chrome store"
+  },
+  "more_6":{
+    "message": "Báo cáo lỗi"
+  },
+  "add_theme":{
+    "message": "Thêm chủ đề"
+  },
+  "turn_on_theme":{
+    "message": "Bật chủ đề"
+  },
+  "action_on":{
+    "message":"Bật"
+  },
+  "action_off":{
+    "message":"Tắt"
+  },
+  "action_reset":{
+    "message":"Đặt lại"
+  },
+  "action_setting":{
+    "message":"Cài đặt"
+  },
+  "action_open":{
+    "message":"Mở"
+  },
+  "down":{
+    "message":"Tải"
+  },
+  "CD_1":{
+    "message":"CĐ_1"
+  },
+  "CD_2":{
+    "message":"CĐ_2"
+  },
+  "info_news":{
+    "message":"--Sưu tầm"
+  },
+  "title":{
+    "message":"SC WORLD - ZUCKER CRUSH"
+  },
+  "save_theme":{
+    "message":"Lưu chủ đề"
+  },
+  "cancel":{
+    "message":"Hủy"
+  },
+  "border":{
+    "message":"Đường viền"
+  },
+  "header":{
+    "message":"Đầu trang"
+  },
+  "main":{
+    "message":"Thân trang"
+  },
+  "button":{
+    "message":"Nút"
+  },
+  "color_main":{
+    "message":"Chữ thân trang"
+  },
+  "color_header":{
+    "message":"Chữ đầu trang"
+  },
+  "heading":{
+    "message":"Chữ đầu trang"
+  },
+  "inner_box":{
+    "message":"Hộp nội tuyến"
+  },
+  "messager_box":{
+    "message":"Hộp thoại tin nhắn"
+  },
+  "title_security_fb":{
+    "message": "Kiểm tra bảo mật tài khoản"
+  },
+  "help":{
+    "message": "Trợ giúp"
+  },
+  "follow_author":{
+    "message": "Theo dõi tác giả"
+  },
+  "user_info":{
+    "message": "Thông Tin Người Dùng"
+  },
+  "version":{
+    "message": "Phiên bản"
+  },
+  "FB_UID":{
+    "message": "FB UID"
+  },
+  "status":{
+    "message": "Trạng thái"
+  },
+  "user_test":{
+    "message": "Thành viên dùng thử"
+  },
+  "join_group":{
+    "message": "Tham gia nhóm"
+  },
+  "tool_main":{
+    "message": "Các công cụ chính"
+  },
+  "setup":{
+    "message": "Thiết lập"
+  },
+  "Email_noti":{
+    "message": "Email thông báo"
+  },
+  "Number_noti":{
+    "message": "Số điện thoại thông báo"
+  },
+  "Contact_sec":{
+    "message": "Liên hệ được tin tưởng"
+  },
+  "security":{
+    "message": "Bảo mật status"
+  },
+  "confirm_login":{
+    "message": "Xác nhận đăng nhập"
+  },
+  "vote_timeline":{
+    "message": "Đánh giá Timeline"
+  },
+  "underfine":{
+    "message": "Không xác định"
+  },
+  "safe":{
+    "message": "An toàn"
+  },
+  "non_safe":{
+    "message": "Không an toàn"
+  },
+  "programer":{
+    "message": "Được lập trình bởi Iloveyou_1606."
+  },
+  "warning_security": { "message":"Bạn sắp truy cập trang web lừa đảo" },
+  "attack_security": { "message":"Những kẻ tấn công trên" },
+  "ms_security": { "message":" có thể đánh lừa bạn làm việc gì đó nguy hiểm như cài phần mềm hoặc tiết lộ thông tin cá nhân (ví dụ: mật khẩu, số điện thoại hoặc thẻ tín dụng)." },
+  "way_back_safe": { "message": "Quay lại an toàn." },
+  "title_Inti": {"message": "Ai là người quan trọng nhất facebook"},
+  "loading": {"message": "Đang tải"},
+  "header_title": {"message": "Xếp hạng bạn bè"},
+  "ranking": {"message": "Thứ hạng"},
+  "user": {"message": "Người dùng"},
+  "action": {"message": "Hành động"},
+  "visit": {"message": "Ghé thăm"},
+  "send_to": {"message": "Gửi đến..."},
+  "review": {"message": "Chế độ xem trước"},
+  "title_login": {"message": "Tool - Đăng nhập FB"},
+  "login_with_cookie": {"message": "Đăng nhập bằng cookie"},
+  "login_with_access_token": {"message": "Đăng nhập bằng access token"},
+  "exprice": {"message": "Hết hạn"},
+  "login": {"message": "Đăng nhập"},
+  "ipnut_re_token": {"message": "Nhập access token của bạn..."},
+  "title_no_facebook": {"message": "Thống kê tin nhắn facebook"},
+  "search": {"message": "Tìm kiếm"},
+  "find": {"message": "Tìm"},
+  "name": {"message": "Tên"},
+  "type": {"message": "Loại"},
+  "total_message": {"message": "Tổng số tin nhắn"},
+  "total_message_unread": {"message": "Số tin nhắn chưa đọc"},
+  "title_who_online": {"message": "Ai đang online?"},
+  "title_header_who_online": {"message": "Bạn bè của bạn, ai đang online?"},
+  "info_basic": {"message": "Thông tin cơ bản"},
+  "no": {"message": "STT"},
+  "title_history_ms": {"message": "Xem tin nhắn đầu tiên của người dùng"},
+  "input_id":{"message": "Nhập ID người dùng..."},
+  "title_get_access_token":{"message": "Lấy access token full quyền"},
+  "account":{"message": "Tài khoản"},
+  "password":{"message": "Mật khẩu"},
+  "get_token":{"message": "Lấy token"},
+  "save":{"message": "LƯU"},
+  "title_grow_rep":{"message": "Tăng tương tác với bạn bè."},
+  "more_grow_rep": {"message": "PS: Nên chọn ít bạn bè, vì nó sẽ spam like đến 10 bài viết đầu tiên của người dùng, các nhiều người thì quá trình này càng lâu. Chúng tôi không sử dụng token của bạn ở bên thứ 3."},
+  "go_to": {"message": "Tiến hành"},
+  "progress": {"message": "Tiến trình"},
+  "chosse_all": {"message": "Chọn tất cả"},
+  "title_disable_opti": {"message": "Đã đóng băng"},
+  "click_disable_opti": {"message": "Click chuột để tải lại trang"},
+  "setting_optimiztion": {"message": "Cài đặt tối ưu hóa"},
+  "domain_white_opti": {"message": "Danh sách tên miền không bị đóng băng"},
+  "domain": {"message": "Tên miền"},
+  "pls_in_domain": {"message": "Vui lòng nhập tên miền"},
+  "example_white_list": {"message": "Nhập tên muốn thêm, VD: https://facebook.com"},
+  "addmin_ii": {"message": "Quản trị viên"},
+  "user_ii": {"message": "Thành viên"},
+  "use": {"message": "Dùng"},
+  "delete": {"message": "Xóa"},
+  "warning_login_fb": {"message": "Bạn chưa đăng nhập facebook"},
+  "login_as": {"message": "Đang đăng nhập với tư cách"},
+  "log_out": {"message": "Đăng xuất"},
+  "log_exprice": {"message": "Phiên đã hết hạn"},
+  "not_log": {"message": "Bạn chưa đăng nhập extension"}
+}

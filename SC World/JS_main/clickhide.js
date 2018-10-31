@@ -1,0 +1,1 @@
+$(document).ready(function(){ chrome.storage.sync.get({"clickjacking":{}},function(sc_world){if(sc_world["clickjacking"] =="yes"){ $("html, head, body").find("iframe"); if($('iframe[src*="like.php?"]') && $('iframe').attr('style') <= ".1" && $('iframe').attr('style') >= "0"){ $("iframe,iframe,iframe").remove();}}});});

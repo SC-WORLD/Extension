@@ -1,0 +1,7 @@
+body{padding: 0px; margin: 0px}
+.header{width: 100%; padding: 20px 0px; text-align: center; background: #CCC; border-bottom: 1px solid #BDBDBD}
+.header img{width: 20px; vertical-align: middle}
+.header span{font-size: 15px; font-weight: bold; margin-left: 10px}
+.header p{color: blue; font-size: 13px;}
+.body_load{background:#BEF781; height: -webkit-fill-available; position: relative}
+.body_load>div{position: absolute; top: 50%; width: 100%; text-align: center; transform: translateY(-50%); color: #013ADF; font-size: 20px; font-weight: bold; cursor: pointer }
