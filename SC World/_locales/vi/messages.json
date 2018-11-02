@@ -306,5 +306,8 @@
   "login_as": {"message": "Đang đăng nhập với tư cách"},
   "log_out": {"message": "Đăng xuất"},
   "log_exprice": {"message": "Phiên đã hết hạn"},
-  "not_log": {"message": "Bạn chưa đăng nhập extension"}
+  "not_log": {"message": "Bạn chưa đăng nhập extension"},
+  "saved": {"message":"ĐÃ LƯU"},
+  "error_show": {"message": "Có lỗi xuất hiện"},
+  "home": {"message": "Trang chủ"}
 }
